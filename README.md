@@ -14,15 +14,19 @@
 ## 👨‍💻 About Me
 
 ```java
-class VimalKumar:
-    name       = "Vimal Kumar P S"
-    role       = "Full Stack Developer (Fresher)"
-    location   = "Tamil Nadu, India 🇮🇳"
-    interests  = ["APIs", "Databases", "Open Source"]
-    open_to    = ["Internships", "Entry-level Backend Roles", "Collaborations"]
+public class VimalKumar {
 
-    def say_hi(self):
-        print("Thanks for dropping by! Let's build something great together.")
+    String name     = "Vimal Kumar P S";
+    String role     = "Backend Developer (Fresher)";
+    String location = "Tamil Nadu, India 🇮🇳";
+
+    String[] interests = {"APIs", "Databases", "Open Source"};
+    String[] openTo    = {"Internships", "Entry-level Backend Roles", "Collaborations"};
+
+    public static void main(String[] args) {
+        System.out.println("Thanks for dropping by! Let's build something great together.");
+    }
+}
 ```
 
 ---
